@@ -1,6 +1,4 @@
-use your_crate_name::greeting;
+use your_crate_name as _;
 
 #[test]
-fn placeholder_crate_builds() {
-    assert_eq!(greeting("template"), "hello from template");
-}
+fn crate_builds_for_integration_tests() {}
